@@ -3,7 +3,8 @@
 此目录对应公开的 GitHub 个人主页仓库 `lishuang0209/lishuang0209`，与个人网站仓库独立。
 
 - `README.md`：GitHub 个人主页展示内容。
-- `assets/profile-banner.svg`：本地矢量横幅，不依赖第三方统计卡片。
+- `assets/profile-banner-index.svg`：新版网站风格的粒子横幅；README 将整张图片链接到个人网站。
+- `assets/profile-banner.svg`：保留的旧版横幅。
 - 仅展示公开项目；不要把私有仓库、登录态参数或公众号后台地址加入内容。
 - 技能以公开项目 README 和实际依赖为依据，不使用虚构的熟练度。
 - 微信文章仅保存公开阅读链接；后续有新文章时，在 README 的文章区增加标题、主题与链接。
