@@ -3,9 +3,10 @@
 此目录对应公开的 GitHub 个人主页仓库 `lishuang0209/lishuang0209`，与个人网站仓库独立。
 
 - `README.md`：GitHub 个人主页展示内容。
-- `assets/profile-banner-clear.gif`：1440 × 528 像素、16 秒循环的粒子动画横幅；文字区域压暗，逐帧清除，禁用增量帧优化，并验证解码帧与源帧一致。README 将整张图片链接到个人网站。
+- `assets/profile-particles.gif`：1440 × 336 像素、16 秒循环的纯粒子动画，整张图片链接到个人网站。标题、名字、介绍和入口使用 README 原生文字，不再绘制进动图。
+- `assets/profile-banner-clear.gif`：保留的上一版含文字横幅。
 - `assets/profile-banner-animated.gif`：保留的上一版动画横幅。
-- `scripts/render-banner.py`：使用 NumPy、Pillow 和 macOS 系统字体生成动画；文字保持固定，背景逐帧改变。
+- `scripts/render-banner.py`：使用 NumPy 和 Pillow 生成纯粒子动画；逐帧清除并验证解码帧与源帧一致。
 - `assets/profile-banner-index.svg`：保留的静态粒子横幅。
 - `assets/profile-banner.svg`：保留的旧版横幅。
 - 仅展示公开项目；不要把私有仓库、登录态参数或公众号后台地址加入内容。
