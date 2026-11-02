@@ -94,13 +94,3 @@
 
 [**当 REA 号称逆向一切，真正带不走的东西是什么** ↗](https://mp.weixin.qq.com/s/6i2JO8WEyKlgmrdg3vdAUA)
 <!-- ARTICLES:END -->
-
-## 找到我
-
-- **作品与日常**：[lishuang0209.github.io](https://lishuang0209.github.io/)
-- **代码与探索**：[GitHub @lishuang0209](https://github.com/lishuang0209)
-- **文章与写作**：[微信公众号文章](#writing)
-
----
-
-<p align="center"><sub>保持好奇，持续构建。 · Built with curiosity.</sub></p>
