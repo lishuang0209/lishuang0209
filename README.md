@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/profile-banner.svg" alt="Hi, I'm lishuang0209. 探索 AI、交互与创作的更多可能。" width="100%" />
+  <a href="https://lishuang0209.github.io/" aria-label="打开李爽的个人网站">
+    <img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/profile-banner-index.svg" alt="李爽 Index — 为好奇心建立索引。点击进入个人网站。" width="100%" />
+  </a>
 </p>
 
 <p align="center">
@@ -14,7 +16,7 @@
 
 ## 关于我
 
-你好，我是 **lishuang0209**。在 AI、设计与技术之间探索，把想法做成可以体验、使用和分享的作品。
+你好，我是 **李爽（lishuang0209）**。在 AI、设计与技术之间探索，把想法做成可以体验、使用和分享的作品。
 
 - **AI 创作工作流**：把真实内容调研、文案生成、视觉风格与配图流程，整理成可复用的 Skill。
 - **交互体验探索**：尝试滚动叙事、WebGL、3D 画廊与声音交互，让网页拥有更丰富的表达。
@@ -64,22 +66,21 @@
 
 ---
 
-### 03 / 个人网站
+### 03 / 李爽的个人网站
 
-**一个关于作品、想法与日常的互联网空间。**
+**为好奇心，建立一个索引。**
 
-采用 Graphite 视觉方向：近黑背景、石墨细边框、紧凑白色标题，以及黄白蓝发光几何图形。
+采用 Index 视觉方向：全宽黑色页面、Li 标志、白色标题，以及带景深和闪烁效果的 WebGL 粒子波浪背景。
 
-- 可切换的个人工作台、作品分类筛选和详情弹窗。
-- 关于我、可展开随记，以及 GitHub 联系入口。
-- 本地 SVG 与 CSS 图形、响应式布局和键盘交互。
-- 通过 GitHub Actions 自动发布到 GitHub Pages。
+- 展示公开项目与公众号文章，支持项目切换和文章分类筛选。
+- 响应式布局、键盘操作和减少动态效果偏好。
+- 背景在离屏与后台自动暂停，WebGL 不可用时显示静态回退。
+- 通过 GitHub Actions 自动发布到 GitHub Pages，保留 Graphite 与 Raycast 历史版本。
 
-**技术与工具** · `HTML` `CSS` `JavaScript` `SVG` `GitHub Actions` `GitHub Pages`
+**技术与工具** · `HTML` `CSS` `JavaScript` `WebGL / GLSL` `SVG` `GitHub Actions` `GitHub Pages`
 
 [访问个人网站 ↗](https://lishuang0209.github.io/) · [查看源码 ↗](https://github.com/lishuang0209/lishuang0209.github.io)
 
-<sub>网站中的三个展示案例标注为示例项目；本页以上列出的是实际公开仓库。</sub>
 <!-- PROJECTS:END -->
 
 [浏览全部公开仓库 →](https://github.com/lishuang0209?tab=repositories&type=public)
