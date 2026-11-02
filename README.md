@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://lishuang0209.github.io/" aria-label="打开李爽的个人网站">
-    <img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/profile-banner-index.svg" alt="李爽 Index — 为好奇心建立索引。点击进入个人网站。" width="100%" />
+    <img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/profile-banner-animated.gif" alt="李爽 Index — 为好奇心建立索引。动态粒子背景，点击进入个人网站。" width="100%" />
   </a>
 </p>
 
