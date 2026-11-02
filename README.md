@@ -88,25 +88,11 @@
 ## ✍️ 文章与写作
 
 <!-- ARTICLES:START -->
-围绕 AI 辅助创作、个人知识管理与技术观察，在微信公众号记录实践和思考。
-
-### AI 辅助开发与交互创作
-
 [**AI零代码做3D落地页：完整流程拆解附全提示词** ↗](https://mp.weixin.qq.com/s/NDDeExPvONx2e7c02f8m7Q)
-
-`AI 辅助开发` · `3D 落地页` · `流程拆解` · `提示词`
-
-### 产品知识管理
 
 [**实操用Obsidian+Codex搭建一个能持续积累的产品知识库** ↗](https://mp.weixin.qq.com/s/VYoCFtJz50dWtEERfJwD_g)
 
-`Obsidian` · `Codex` · `产品知识库` · `知识积累`
-
-### 技术观察与思考
-
 [**当 REA 号称逆向一切，真正带不走的东西是什么** ↗](https://mp.weixin.qq.com/s/6i2JO8WEyKlgmrdg3vdAUA)
-
-`REA` · `逆向工程` · `技术观察`
 <!-- ARTICLES:END -->
 
 ## 找到我
