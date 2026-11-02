@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Hi, I'm lishuang0209. 探索 AI、交互与创作的更多可能。" width="100%" />
+  <img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/profile-banner.svg" alt="Hi, I'm lishuang0209. 探索 AI、交互与创作的更多可能。" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://lishuang0209.github.io/">个人网站 ↗</a>
   &nbsp; · &nbsp;
-  <a href="#-全部公开项目">开源项目</a>
+  <a href="#projects">开源项目</a>
   &nbsp; · &nbsp;
-  <a href="#-技能与工具">技能与工具</a>
+  <a href="#skills">技能与工具</a>
   &nbsp; · &nbsp;
-  <a href="#-文章与写作">文章与写作</a>
+  <a href="#writing">文章与写作</a>
 </p>
 
 ## 关于我
@@ -22,6 +22,8 @@
 - **个人知识管理**：探索 Obsidian + Codex，把产品知识与实践笔记持续积累下来。
 
 `AI 辅助开发` `Skills / MCP` `Creative Frontend` `交互设计` `产品知识管理` `内容创作`
+
+<a id="projects"></a>
 
 ## 🧩 全部公开项目
 
@@ -82,6 +84,8 @@
 
 [浏览全部公开仓库 →](https://github.com/lishuang0209?tab=repositories&type=public)
 
+<a id="skills"></a>
+
 ## 🛠 技能与工具
 
 以下是我在公开项目中正在实践的技术与方法。
@@ -109,6 +113,8 @@
 **工程与发布**
 
 `Vite` · `Git / GitHub` · `GitHub CLI` · `GitHub Actions` · `GitHub Pages` · `静态网站部署`
+
+<a id="writing"></a>
 
 ## ✍️ 文章与写作
 
@@ -138,7 +144,7 @@
 
 - **作品与日常**：[lishuang0209.github.io](https://lishuang0209.github.io/)
 - **代码与探索**：[GitHub @lishuang0209](https://github.com/lishuang0209)
-- **文章与写作**：[微信公众号文章](#-文章与写作)
+- **文章与写作**：[微信公众号文章](#writing)
 
 ---
 
