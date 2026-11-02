@@ -5,8 +5,8 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
-W, H, SCALE = 900, 330, 900 / 1200
-FPS, SECONDS = 10, 24
+W, H, SCALE = 1440, 528, 1440 / 1200
+FPS, SECONDS = 12.5, 16
 FONT_DIR = Path('/System/Library/Fonts')
 chinese = str(FONT_DIR / 'STHeiti Medium.ttc')
 latin = str(FONT_DIR / 'Supplemental/Arial.ttf')
@@ -16,15 +16,15 @@ text = Image.new('RGBA', (W, H))
 d = ImageDraw.Draw(text)
 def label(x, y, value, size, color='white', family=chinese, anchor='ls'):
     d.text((x * SCALE, y * SCALE), value, font=font(family, size), fill=color, anchor=anchor, stroke_width=1 if size>=50 else 0)
-label(38, 46, '[ Lı ]', 26, family=mono)
+label(38, 46, '[ Li ]', 26, family=mono)
 d.rectangle((89*SCALE, 21*SCALE, 93*SCALE, 25*SCALE), fill='#7089ba')
 label(145, 44, '李爽', 18)
 label(191, 44, 'index', 15, '#929292', latin)
-label(1160, 42, 'lishuang0209.github.io ↗', 12, '#aaaaaa', latin, 'rs')
+label(1160, 42, 'lishuang0209.github.io', 12, '#aaaaaa', latin, 'rs')
 label(600, 163, '为好奇心，', 55, anchor='ms')
 label(600, 230, '建立一个索引。', 55, anchor='ms')
 label(600, 278, '你好，我是李爽。在 AI、设计和代码之间探索。', 15, '#aaaaaa', anchor='ms')
-d.rounded_rectangle((501*SCALE, 313*SCALE, 699*SCALE, 357*SCALE), radius=22*SCALE, fill=(0,0,0,160), outline='white', width=1)
+d.rounded_rectangle((501*SCALE, 313*SCALE, 699*SCALE, 357*SCALE), radius=22*SCALE, fill=(0,0,0,255), outline='white', width=1)
 label(600, 341, '访问个人网站 ↗', 15, anchor='ms')
 label(40, 416, 'AI WORKFLOWS / CREATIVE FRONTEND / WRITING', 9, '#666666', mono)
 
@@ -32,7 +32,7 @@ cam = np.array([1.2629783123, 2.6646064714, -1.8178993743])
 f = -cam / np.linalg.norm(cam)
 r = np.cross(f, [0,1,0]); r /= np.linalg.norm(r)
 u = np.cross(r, f)
-axis = np.arange(0,512,2) / 511 * 20 - 10
+axis = np.arange(0,512,3) / 511 * 20 - 10
 x,z = np.meshgrid(axis,axis); valid = x*x+z*z < 25
 x,z = x[valid],z[valid]
 def wave(x,z,t):
@@ -42,10 +42,12 @@ def smooth(a,b,v):
 noise=wave(x*4,z*4,0)
 hashvalue=np.mod(np.sin(x*127.1+z*74.7)*43758.5453,1)
 Y,X=np.mgrid[:H,:W]
-scrim=1-.65*np.clip(1-((X-W/2)/(375*SCALE))**2-((Y-225*SCALE)/(210*SCALE))**2,0,1)
+# Keep the text region almost black, with a smooth transition to the side waves.
+scrim=1-.995*np.exp(-(((X-W/2)/(390*SCALE))**4+((Y-235*SCALE)/(190*SCALE))**4))
+scrim*=smooth(30*SCALE,85*SCALE,Y)*(1-smooth(370*SCALE,440*SCALE,Y))
 palette=[]
-for i in range(32):palette.extend([round(i*255/31)]*3)
-palette += [112,137,186] + [0,0,0]*223
+for i in range(64):palette.extend([round(i*255/63)]*3)
+palette += [112,137,186] + [0,0,0]*191
 pal=Image.new('P',(1,1));pal.putpalette(palette)
 frames=[]
 for frame in range(round(FPS*SECONDS)):
@@ -62,20 +64,25 @@ for frame in range(round(FPS*SECONDS)):
     alpha=(1.04-np.clip(dist,0,1))*smooth(-.5,.25,pos[:,1])*.8*reveal*bright
     alpha*=1-smooth(.4,1.9,((sx/1200-.5)*2)**2+((sy/730-.5)*2)**2)
     px=sx*SCALE;py=(sy*.8-75)*SCALE
-    radius=np.maximum(dist*17.9,3)/4*SCALE
+    radius=np.minimum(np.maximum(dist*17.9,3)/4,5)*SCALE
     mask=(depth>.01)&(px>-40)&(px<W+40)&(py>-40)&(py<H+40)&(alpha>.004)
     image=Image.new('L',(W,H));draw=ImageDraw.Draw(image)
     for a,b,c,v in zip(px[mask],py[mask],radius[mask],alpha[mask]):
-        draw.ellipse((a-c,b-c,a+c,b+c),fill=min(255,round(v*255)))
+        draw.ellipse((a-c,b-c,a+c,b+c),fill=min(140,round(v*180)))
     array=(np.asarray(image)*scrim).astype('uint8')
     image=Image.fromarray(array).convert('RGBA')
     image.alpha_composite(text)
     frames.append(image.convert('RGB').quantize(palette=pal,dither=Image.Dither.NONE))
     if frame%60==0: print(f'Rendered {frame}/{round(FPS*SECONDS)} frames',flush=True)
-output=ROOT/'assets/profile-banner-animated.gif'
-frames[0].save(output,save_all=True,append_images=frames[1:],duration=round(1000/FPS),loop=0,optimize=True,disposal=1)
+output=ROOT/'assets/profile-banner-clear.gif'
+frames[0].save(output,save_all=True,append_images=frames[1:],duration=round(1000/FPS),loop=0,optimize=False,disposal=2,transparency=None)
 check=Image.open(output)
 assert check.n_frames==round(FPS*SECONDS) and check.info['loop']==0
+# Every decoded frame must exactly match its source. This catches disposal,
+# palette, and delta-frame artifacts rather than just checking frame count.
+for index in [0,1,25,75,len(frames)-1]:
+    check.seek(index)
+    assert np.array_equal(np.asarray(check.convert('RGB')),np.asarray(frames[index].convert('RGB'))),f'Decoded frame {index} differs'
 check.seek(0);first=np.asarray(check.convert('RGB'))
 check.seek(75);assert np.mean(np.abs(np.asarray(check.convert('RGB')).astype(float)-first))>.5
 print(f'Created {output.name}: {check.n_frames} frames, {output.stat().st_size/1024/1024:.2f} MiB',flush=True)
