@@ -1,6 +1,12 @@
+<p align="center"><strong>李爽 · Li</strong></p>
+
+<h1 align="center">为好奇心，<br />建立一个索引。</h1>
+
+<p align="center">在 AI、设计和代码之间探索。</p>
+
 <p align="center">
   <a href="https://lishuang0209.github.io/" aria-label="打开李爽的个人网站">
-    <img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/profile-banner-clear.gif" alt="李爽 Index — 为好奇心建立索引。动态粒子背景，点击进入个人网站。" width="100%" />
+    <img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/profile-particles.gif" alt="循环起伏的粒子波浪，点击进入李爽的个人网站" width="100%" />
   </a>
 </p>
 
