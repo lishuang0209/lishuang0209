@@ -9,8 +9,6 @@
   &nbsp; · &nbsp;
   <a href="#projects">开源项目</a>
   &nbsp; · &nbsp;
-  <a href="#skills">技能与工具</a>
-  &nbsp; · &nbsp;
   <a href="#writing">文章与写作</a>
 </p>
 
@@ -84,36 +82,6 @@
 <!-- PROJECTS:END -->
 
 [浏览全部公开仓库 →](https://github.com/lishuang0209?tab=repositories&type=public)
-
-<a id="skills"></a>
-
-## 🛠 技能与工具
-
-以下是我在公开项目中正在实践的技术与方法。
-
-**AI 工作流、内容创作与知识管理**
-
-`Agent Skills` · `MCP 接入` · `提示词与流程设计` · `内容调研` · `AI 文案与配图` · `Python / Pillow`
-
-`Obsidian + Codex` · `产品知识积累` · `实践笔记`
-
-**前端与创意交互**
-
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-171717?style=flat-square&amp;logo=typescript&amp;logoColor=3178C6" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-171717?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/JavaScript-171717?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML-171717?style=flat-square&amp;logo=html5&amp;logoColor=E34F26" alt="HTML" />
-  <img src="https://img.shields.io/badge/CSS-171717?style=flat-square&amp;logo=css&amp;logoColor=639" alt="CSS" />
-  <img src="https://img.shields.io/badge/Three.js-171717?style=flat-square&amp;logo=threedotjs&amp;logoColor=white" alt="Three.js" />
-  <img src="https://img.shields.io/badge/Python-171717?style=flat-square&amp;logo=python&amp;logoColor=3776AB" alt="Python" />
-</p>
-
-`WebGL` · `GSAP / ScrollTrigger` · `Lenis` · `SVG` · `Web Audio` · `滚动叙事` · `响应式与无障碍交互`
-
-**工程与发布**
-
-`Vite` · `Git / GitHub` · `GitHub CLI` · `GitHub Actions` · `GitHub Pages` · `静态网站部署`
 
 <a id="writing"></a>
 
