@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="258" viewBox="0 0 1200 258" role="img" aria-labelledby="title description">
+  <title id="title">李爽 · LI SHUANG</title>
+  <desc id="description">在 AI、设计与代码之间探索，把AI想法推进成可体验、可验证的产品。EXPLORE · BUILD · WRITE · SHARE</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fcfdff"/><stop offset="1" stop-color="#f2f5fa"/></linearGradient>
+    <radialGradient id="light" cx="50%" cy="0%" r="85%"><stop stop-color="#eaf1fd" stop-opacity=".8"/><stop offset="1" stop-color="#f7f9fc" stop-opacity="0"/></radialGradient>
+    <linearGradient id="accent"><stop stop-color="#2877ee"/><stop offset="1" stop-color="#8d58eb"/></linearGradient>
+  </defs>
+  <rect x=".75" y="2" width="1198.5" height="255.25" rx="15" fill="url(#background)" stroke="#cfd8e3" stroke-width="1.5"/>
+  <rect x="1.5" y="3" width="1197" height="253" rx="14" fill="url(#light)"/>
+  <rect x="0" y="0" width="1200" height="3.5" rx="1.75" fill="url(#accent)"/>
+  <g text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',Arial,sans-serif">
+    <text x="600" y="91" font-size="57" font-weight="700" fill="#202630">李爽</text>
+    <rect x="562" y="115" width="76" height="3.5" rx="1.75" fill="url(#accent)"/>
+    <text x="600" y="153" font-size="19" font-weight="600" letter-spacing="3.5" fill="#0969da">LI SHUANG · AI / DESIGN / CODE</text>
+    <text x="600" y="190" font-size="21" font-weight="400" fill="#57616e">把AI想法推进成可体验、可验证的产品</text>
+    <text x="600" y="226" font-size="14" letter-spacing="3.5" fill="#6b7685">EXPLORE · BUILD · WRITE · SHARE</text>
+  </g>
+</svg>
