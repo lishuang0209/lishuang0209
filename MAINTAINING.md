@@ -2,8 +2,10 @@
 
 此目录对应公开的 GitHub 个人主页仓库 `lishuang0209/lishuang0209`，与个人网站仓库独立。
 
-- `README.md`：GitHub 个人主页展示内容。
-- `assets/profile-particles.gif`：1440 × 336 像素、16 秒循环的纯粒子动画，整张图片链接到个人网站。标题、名字、介绍和入口使用 README 原生文字，不再绘制进动图。
+- `README.md`：GitHub 个人主页展示内容。顶部改为浅色静态个人名片，名字为李爽，不再展示网站横幅或动画。
+- `assets/profile-card.svg`：浅色圆角名片、蓝紫渐变线、姓名和介绍。
+- `assets/nav-projects.svg`、`nav-about.svg`、`nav-writing.svg`：蓝、紫、绿导航按钮，链接到现有项目、关于和文章板块。
+- `assets/profile-particles.gif`：保留的旧动画，当前 README 不再引用。
 - `assets/profile-banner-clear.gif`：保留的上一版含文字横幅。
 - `assets/profile-banner-animated.gif`：保留的上一版动画横幅。
 - `scripts/render-banner.py`：使用 NumPy 和 Pillow 生成纯粒子动画；逐帧清除并验证解码帧与源帧一致。
