@@ -1,22 +1,18 @@
-<p align="center"><strong>李爽 · Li</strong></p>
-
-<h1 align="center">为好奇心，<br />建立一个索引。</h1>
-
-<p align="center">在 AI、设计和代码之间探索。</p>
-
 <p align="center">
-  <a href="https://lishuang0209.github.io/" aria-label="打开李爽的个人网站">
-    <img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/profile-particles.gif" alt="循环起伏的粒子波浪，点击进入李爽的个人网站" width="100%" />
-  </a>
+  <img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/profile-card.svg" alt="李爽 · LI SHUANG — 把想法，做成可以体验与分享的作品" width="100%" />
 </p>
 
+<br />
+
 <p align="center">
-  <a href="https://lishuang0209.github.io/">个人网站 ↗</a>
-  &nbsp; · &nbsp;
-  <a href="#projects">开源项目</a>
-  &nbsp; · &nbsp;
-  <a href="#writing">文章与写作</a>
+  <a href="#projects"><img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/nav-projects.svg" alt="开源项目" height="40" /></a>
+  <a href="#about"><img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/nav-about.svg" alt="关于李爽" height="40" /></a>
+  <a href="#writing"><img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/nav-writing.svg" alt="文章与写作" height="40" /></a>
 </p>
+
+<br />
+
+<a id="about"></a>
 
 ## 关于我
 
