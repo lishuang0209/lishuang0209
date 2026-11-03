@@ -95,4 +95,6 @@
 [**实操用Obsidian+Codex搭建一个能持续积累的产品知识库** ↗](https://mp.weixin.qq.com/s/VYoCFtJz50dWtEERfJwD_g)
 
 [**当 REA 号称逆向一切，真正带不走的东西是什么** ↗](https://mp.weixin.qq.com/s/6i2JO8WEyKlgmrdg3vdAUA)
+
+[**小米开源硬件 HachimoDock 亮相：150元复刻万能 AI 桌宠，从硬件拆解到万能场景全解析** ↗](https://mp.weixin.qq.com/s/q7Jv0Qh8uZe7CviEOxnDfg)
 <!-- ARTICLES:END -->

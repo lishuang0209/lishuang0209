@@ -20,7 +20,8 @@
 - 小红书 Skill：项目 README，包含 Python、Skills、MCP、Pillow 和内容创作流程。
 - Blender 展示页：README 和 package.json，包含 React、TypeScript、Vite、Three.js、GSAP、Lenis、Web Audio。
 - 个人网站：HTML、CSS、JavaScript、SVG，以及 GitHub Actions / Pages 配置。
-- 三篇公众号文章的公开链接和完整标题由用户提供；微信返回验证页，未获取正文。文章分类仅根据标题整理，不对正文作未经核验的摘要。
+- 前三篇公众号文章的公开链接和完整标题由用户提供；微信返回验证页，未获取正文。文章分类仅根据标题整理，不对正文作未经核验的摘要。
+- 第四篇《小米开源硬件 HachimoDock 亮相：150元复刻万能 AI 桌宠，从硬件拆解到万能场景全解析》来自公开阅读页，已核验标题与链接，归入技术观察。
 - Obsidian + Codex 知识管理方向来自用户提供的第二篇文章标题。
 
 后续新增公开项目时，同步更新 README 的项目目录。此版本没有设置定时任务。
