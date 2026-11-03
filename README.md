@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/profile-card.svg" alt="李爽 · LI SHUANG — 把想法，做成可以体验与分享的作品" width="100%" />
+  <img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/profile-card-product.svg" alt="李爽 · LI SHUANG — 把AI想法推进成可体验、可验证的产品" width="100%" />
 </p>
 
 <br />
 
 <p align="center">
-  <a href="#projects"><img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/nav-projects.svg" alt="开源项目" height="40" /></a>
-  <a href="#about"><img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/nav-about.svg" alt="关于李爽" height="40" /></a>
-  <a href="#writing"><img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/nav-writing.svg" alt="文章与写作" height="40" /></a>
+  <a href="#projects"><img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/nav-projects.svg" alt="开源项目" height="28" /></a>
+  <a href="#about"><img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/nav-about.svg" alt="关于李爽" height="28" /></a>
+  <a href="#writing"><img src="https://raw.githubusercontent.com/lishuang0209/lishuang0209/main/assets/nav-writing.svg" alt="文章与写作" height="28" /></a>
 </p>
 
 <br />
