@@ -27,59 +27,50 @@
 
 <a id="projects"></a>
 
-## 🧩 全部公开项目
+## 项目
 
 <!-- PROJECTS:START -->
-### 01 / 小红书图文创作 Skill
+### 01 / 墨观古建AI · 古建研学短片工作台
 
-**从真实笔记调研，到文案与配图的一套可复用工作流。**
+[![墨观古建AI 首页，展示水墨山寺与保国寺找斗拱案例](assets/projects/moguan.jpg)](https://gujianyanxue.online/)
 
-面向支持 Skills 的 Cursor 与 Codex，将内容创作中的重复步骤整理成明确流程：先检索真实笔记，再生成内容，最后完成视觉输出。
+为古建研学老师和课程团队制作课堂内容。导入研学资料、标注实拍照片，编辑并审阅研学脚本，再导出水墨短片和 A4 观察任务卡。
 
-- 调研同题参考笔记，核验来源及互动数据，支持合格缓存复用。
-- 生成标题备选、正文和话题标签，提供 **10 种视觉风格**。
-- 默认制作 3:4 竖版封面；内容页按需生成，附画幅校正与安装脚本。
-- 提供功能展示页、安装说明与 MCP 接入文档。
+`AI 研学` `Next.js` `FastAPI` `FFmpeg`
 
-**技术与工具** · `Agent Skills` `MCP` `Python` `Pillow` `AI 图文工作流`
+[项目官网 ↗](https://gujianyanxue.online/) · [项目源码 ↗](https://github.com/lishuang0209/moguan)
 
-[体验展示页 ↗](https://lishuang0209.github.io/xiaohongshu-content/) · [查看源码 ↗](https://github.com/lishuang0209/xiaohongshu-content) · [安装与使用](https://github.com/lishuang0209/xiaohongshu-content#快速安装)
+### 02 / guci · 骨瓷出口工作台
 
----
+[![Porvia 柠檬蓝花演示提案与印花、包装选稿](assets/projects/guci.png)](https://github.com/lishuang0209/guci)
 
-### 02 / Blender 交互展示页
+面向骨瓷出口团队，从客户询盘中整理需求，集中管理产品资料、印花和包装审稿，并生成英文 PDF 提案。
 
-**将滚动叙事、3D 视觉与声音交互组合成一段网页体验。**
+`骨瓷出口` `Node.js` `SQLite` `阿里百炼`
 
-围绕 Blender 内容制作的独立概念展示页，探索从静态页面到可交互视觉叙事的转变。
+[项目源码 ↗](https://github.com/lishuang0209/guci) · [本机运行说明 ↗](https://github.com/lishuang0209/guci#readme)
 
-- 滚动驱动的视频展开、曲面变形与连续章节过渡。
-- 3D 翻转作品卡、WebGL 曲面轮播和指针局部显色。
-- Three.js 角色展示、GSAP 动效、SVG 线条拨动与 Web Audio 声音反馈。
-- 支持键盘操作、减少动态效果偏好，以及 WebGL 不可用时的回退。
+### 03 / 电商素材画布工作流
 
-**技术与工具** · `React` `TypeScript` `Three.js / WebGL` `GSAP` `Lenis` `Vite` `Web Audio`
+[![电商素材工作流画布，展示商品主图与办公、户外场景分支](assets/projects/ecommerce-image-workflow.jpg)](https://github.com/lishuang0209/ecommerce-image-workflow)
 
-[打开交互体验 ↗](https://lishuang0209.github.io/blender-landing-page/) · [查看源码与实现说明 ↗](https://github.com/lishuang0209/blender-landing-page)
+基于 BeatDesign 和阿里百炼，按 SKU 管理商品素材。在画布上串联素材入库、提示词编辑、白底主图、办公与户外场景图生成，以及结果保存。
 
-<sub>独立概念项目，非 Blender 官方网站；媒体及第三方内容的来源说明见仓库。</sub>
+`BeatDesign` `阿里百炼` `TypeScript` `Python`
 
----
+[项目源码 ↗](https://github.com/lishuang0209/ecommerce-image-workflow) · [本机运行说明 ↗](https://github.com/lishuang0209/ecommerce-image-workflow/blob/main/README_ECOMMERCE.md)
 
-### 03 / 李爽的个人网站
+### 04 / Blender · 交互展示页
 
-**为好奇心，建立一个索引。**
+[![Blender 交互展示页中的 3D 作品画廊](assets/projects/blender-landing-page.jpg)](https://lishuang0209.github.io/blender-landing-page/#showcase)
 
-采用 Index 视觉方向：全宽黑色页面、Li 标志、白色标题，以及带景深和闪烁效果的 WebGL 粒子波浪背景。
+围绕 Blender 制作的独立概念页。滚动时，视频画面逐渐展开并弯曲变形；浏览者也可以翻转 3D 作品卡、拖动 WebGL 曲面画廊，或拨动页尾的线条听取声音反馈。
 
-- 展示公开项目与公众号文章，支持项目切换和文章分类筛选。
-- 响应式布局、键盘操作和减少动态效果偏好。
-- 背景在离屏与后台自动暂停，WebGL 不可用时显示静态回退。
-- 通过 GitHub Actions 自动发布到 GitHub Pages，保留 Graphite 与 Raycast 历史版本。
+`React` `TypeScript` `Three.js` `GSAP` `Web Audio`
 
-**技术与工具** · `HTML` `CSS` `JavaScript` `WebGL / GLSL` `SVG` `GitHub Actions` `GitHub Pages`
+[在线体验 ↗](https://lishuang0209.github.io/blender-landing-page/) · [项目源码 ↗](https://github.com/lishuang0209/blender-landing-page)
 
-[访问个人网站 ↗](https://lishuang0209.github.io/) · [查看源码 ↗](https://github.com/lishuang0209/lishuang0209.github.io)
+其他项目 · [小红书图文创作 Skill](https://github.com/lishuang0209/xiaohongshu-content) · [个人网站](https://lishuang0209.github.io/)
 
 <!-- PROJECTS:END -->
 
