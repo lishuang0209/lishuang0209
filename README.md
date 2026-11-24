@@ -70,8 +70,6 @@
 
 [在线体验 ↗](https://lishuang0209.github.io/blender-landing-page/) · [项目源码 ↗](https://github.com/lishuang0209/blender-landing-page)
 
-其他项目 · [小红书图文创作 Skill](https://github.com/lishuang0209/xiaohongshu-content) · [个人网站](https://lishuang0209.github.io/)
-
 <!-- PROJECTS:END -->
 
 [浏览全部公开仓库 →](https://github.com/lishuang0209?tab=repositories&type=public)
