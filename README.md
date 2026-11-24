@@ -40,13 +40,13 @@
 
 [项目官网 ↗](https://gujianyanxue.online/) · [项目源码 ↗](https://github.com/lishuang0209/moguan)
 
-### 02 / guci · 骨瓷出口工作台
+### 02 / 骨瓷出口工作台
 
 [![Porvia 柠檬蓝花演示提案与印花、包装选稿](assets/projects/guci.png)](https://github.com/lishuang0209/guci)
 
 面向骨瓷出口团队，从客户询盘中整理需求，集中管理产品资料、印花和包装审稿，并生成英文 PDF 提案。
 
-`骨瓷出口` `Node.js` `SQLite` `阿里百炼`
+`骨瓷出口` `Node.js` `SQLite`
 
 [项目源码 ↗](https://github.com/lishuang0209/guci) · [本机运行说明 ↗](https://github.com/lishuang0209/guci#readme)
 
@@ -54,9 +54,9 @@
 
 [![电商素材工作流画布，展示商品主图与办公、户外场景分支](assets/projects/ecommerce-image-workflow.jpg)](https://github.com/lishuang0209/ecommerce-image-workflow)
 
-基于 BeatDesign 和阿里百炼，按 SKU 管理商品素材。在画布上串联素材入库、提示词编辑、白底主图、办公与户外场景图生成，以及结果保存。
+按 SKU 管理商品素材。在画布上串联素材入库、提示词编辑、白底主图、办公与户外场景图生成，以及结果保存。
 
-`BeatDesign` `阿里百炼` `TypeScript` `Python`
+`TypeScript` `Python`
 
 [项目源码 ↗](https://github.com/lishuang0209/ecommerce-image-workflow) · [本机运行说明 ↗](https://github.com/lishuang0209/ecommerce-image-workflow/blob/main/README_ECOMMERCE.md)
 
