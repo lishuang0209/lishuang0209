@@ -62,7 +62,7 @@
 
 ### 04 / Blender · 交互展示页
 
-[![Blender WebGL 曲面画廊第 10 件作品 Color woven](assets/projects/blender-color-woven.jpg)](https://lishuang0209.github.io/blender-landing-page/#immersive-gallery)
+[![Blender WebGL 曲面画廊第 10 件作品 Color woven](assets/projects/blender-color-woven-gallery.jpg)](https://lishuang0209.github.io/blender-landing-page/#immersive-gallery)
 
 围绕 Blender 制作的独立概念页。滚动时，视频画面逐渐展开并弯曲变形；浏览者也可以翻转 3D 作品卡、拖动 WebGL 曲面画廊，或拨动页尾的线条听取声音反馈。
 
