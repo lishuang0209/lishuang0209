@@ -72,8 +72,6 @@
 
 <!-- PROJECTS:END -->
 
-[浏览全部公开仓库 →](https://github.com/lishuang0209?tab=repositories&type=public)
-
 <a id="writing"></a>
 
 ## ✍️ 文章与写作
