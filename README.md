@@ -36,20 +36,18 @@
     <th width="50%" align="left" valign="top"><h3>02 / 骨瓷出口工作台</h3></th>
   </tr>
   <tr>
-    <td width="50%" align="left" valign="top"><a href="https://gujianyanxue.online/"><img src="assets/projects/previews/moguan.jpg" alt="墨观古建AI 首页，展示水墨山寺与保国寺找斗拱案例" width="100%"></a></td>
-    <td width="50%" align="left" valign="top"><a href="https://github.com/lishuang0209/guci"><img src="assets/projects/previews/guci.jpg" alt="Porvia 柠檬蓝花演示提案与印花、包装选稿" width="100%"></a></td>
-  </tr>
-  <tr>
-    <td width="50%" align="left" valign="top"><p>为古建研学老师和课程团队制作课堂内容。导入研学资料、标注实拍照片，编辑并审阅研学脚本，再导出水墨短片和 A4 观察任务卡。</p></td>
-    <td width="50%" align="left" valign="top"><p>面向骨瓷出口团队，从客户询盘中整理需求，集中管理产品资料、印花和包装审稿，并生成英文 PDF 提案。</p></td>
-  </tr>
-  <tr>
-    <td width="50%" align="left" valign="top"><p><code>AI 研学</code> <code>Next.js</code> <code>FastAPI</code> <code>FFmpeg</code></p></td>
-    <td width="50%" align="left" valign="top"><p><code>骨瓷出口</code> <code>Node.js</code> <code>SQLite</code></p></td>
-  </tr>
-  <tr>
-    <td width="50%" align="left" valign="top"><p><a href="https://gujianyanxue.online/">项目官网 ↗</a> · <a href="https://github.com/lishuang0209/moguan">项目源码 ↗</a></p></td>
-    <td width="50%" align="left" valign="top"><p><a href="https://github.com/lishuang0209/guci">项目源码 ↗</a> · <a href="https://github.com/lishuang0209/guci#readme">本机运行说明 ↗</a></p></td>
+    <td width="50%" align="left" valign="top">
+      <a href="https://gujianyanxue.online/"><img src="assets/projects/previews/moguan.jpg" alt="墨观古建AI 首页，展示水墨山寺与保国寺找斗拱案例" width="100%"></a>
+      <p>为古建研学老师和课程团队制作课堂内容。导入研学资料、标注实拍照片，编辑并审阅研学脚本，再导出水墨短片和 A4 观察任务卡。</p>
+      <p><code>AI 研学</code> <code>Next.js</code> <code>FastAPI</code> <code>FFmpeg</code></p>
+      <p><a href="https://gujianyanxue.online/">项目官网 ↗</a> · <a href="https://github.com/lishuang0209/moguan">项目源码 ↗</a></p>
+    </td>
+    <td width="50%" align="left" valign="top">
+      <a href="https://github.com/lishuang0209/guci"><img src="assets/projects/previews/guci-cropped.jpg" alt="Porvia 柠檬蓝花演示提案与印花、包装选稿" width="100%"></a>
+      <p>面向骨瓷出口团队，从客户询盘中整理需求，集中管理产品资料、印花和包装审稿，并生成英文 PDF 提案。</p>
+      <p><code>骨瓷出口</code> <code>Node.js</code> <code>SQLite</code></p>
+      <p><a href="https://github.com/lishuang0209/guci">项目源码 ↗</a> · <a href="https://github.com/lishuang0209/guci#readme">本机运行说明 ↗</a></p>
+    </td>
   </tr>
 </table>
 
@@ -59,20 +57,18 @@
     <th width="50%" align="left" valign="top"><h3>04 / Blender · 交互展示页</h3></th>
   </tr>
   <tr>
-    <td width="50%" align="left" valign="top"><a href="https://github.com/lishuang0209/ecommerce-image-workflow"><img src="assets/projects/previews/ecommerce-image-workflow.jpg" alt="电商素材工作流画布，展示商品主图与办公、户外场景分支" width="100%"></a></td>
-    <td width="50%" align="left" valign="top"><a href="https://lishuang0209.github.io/blender-landing-page/#immersive-gallery"><img src="assets/projects/previews/blender-color-woven-gallery.jpg" alt="Blender WebGL 曲面画廊第 10 件作品 Color woven" width="100%"></a></td>
-  </tr>
-  <tr>
-    <td width="50%" align="left" valign="top"><p>按 SKU 管理商品素材。在画布上串联素材入库、提示词编辑、白底主图、办公与户外场景图生成，以及结果保存。</p></td>
-    <td width="50%" align="left" valign="top"><p>围绕 Blender 制作的独立概念页。滚动时，视频画面逐渐展开并弯曲变形；浏览者也可以翻转 3D 作品卡、拖动 WebGL 曲面画廊，或拨动页尾的线条听取声音反馈。</p></td>
-  </tr>
-  <tr>
-    <td width="50%" align="left" valign="top"><p><code>TypeScript</code> <code>Python</code></p></td>
-    <td width="50%" align="left" valign="top"><p><code>React</code> <code>TypeScript</code> <code>Three.js</code> <code>GSAP</code> <code>Web Audio</code></p></td>
-  </tr>
-  <tr>
-    <td width="50%" align="left" valign="top"><p><a href="https://github.com/lishuang0209/ecommerce-image-workflow">项目源码 ↗</a> · <a href="https://github.com/lishuang0209/ecommerce-image-workflow/blob/main/README_ECOMMERCE.md">本机运行说明 ↗</a></p></td>
-    <td width="50%" align="left" valign="top"><p><a href="https://lishuang0209.github.io/blender-landing-page/">在线体验 ↗</a> · <a href="https://github.com/lishuang0209/blender-landing-page">项目源码 ↗</a></p></td>
+    <td width="50%" align="left" valign="top">
+      <a href="https://github.com/lishuang0209/ecommerce-image-workflow"><img src="assets/projects/previews/ecommerce-image-workflow.jpg" alt="电商素材工作流画布，展示商品主图与办公、户外场景分支" width="100%"></a>
+      <p>按 SKU 管理商品素材。在画布上串联素材入库、提示词编辑、白底主图、办公与户外场景图生成，以及结果保存。</p>
+      <p><code>TypeScript</code> <code>Python</code></p>
+      <p><a href="https://github.com/lishuang0209/ecommerce-image-workflow">项目源码 ↗</a> · <a href="https://github.com/lishuang0209/ecommerce-image-workflow/blob/main/README_ECOMMERCE.md">本机运行说明 ↗</a></p>
+    </td>
+    <td width="50%" align="left" valign="top">
+      <a href="https://lishuang0209.github.io/blender-landing-page/#immersive-gallery"><img src="assets/projects/previews/blender-color-woven-gallery.jpg" alt="Blender WebGL 曲面画廊第 10 件作品 Color woven" width="100%"></a>
+      <p>围绕 Blender 制作的独立概念页。滚动时，视频画面逐渐展开并弯曲变形；浏览者也可以翻转 3D 作品卡、拖动 WebGL 曲面画廊，或拨动页尾的线条听取声音反馈。</p>
+      <p><code>React</code> <code>TypeScript</code> <code>Three.js</code> <code>GSAP</code> <code>Web Audio</code></p>
+      <p><a href="https://lishuang0209.github.io/blender-landing-page/">在线体验 ↗</a> · <a href="https://github.com/lishuang0209/blender-landing-page">项目源码 ↗</a></p>
+    </td>
   </tr>
 </table>
 
