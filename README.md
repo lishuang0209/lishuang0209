@@ -32,7 +32,7 @@
 <!-- PROJECTS:START -->
 <table>
   <tr>
-    <th width="50%" align="left" valign="top"><h3>01 / 墨观古建AI · 古建研学短片工作台</h3></th>
+    <th width="50%" align="left" valign="top"><h3>01 / 墨观古建AI · 古建研学短片</h3></th>
     <th width="50%" align="left" valign="top"><h3>02 / 骨瓷出口工作台</h3></th>
   </tr>
   <tr>
