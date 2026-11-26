@@ -37,13 +37,13 @@
   </tr>
   <tr>
     <td width="50%" align="left" valign="top">
-      <a href="https://gujianyanxue.online/"><img src="assets/projects/previews/moguan.jpg" alt="墨观古建AI 首页，展示水墨山寺与保国寺找斗拱案例" width="100%"></a>
+      <a href="https://gujianyanxue.online/"><img src="assets/projects/previews/moguan-full-height.jpg" alt="墨观古建AI 首页，展示水墨山寺与保国寺找斗拱案例" width="100%"></a>
       <p>为古建研学老师和课程团队制作课堂内容。导入研学资料、标注实拍照片，编辑并审阅研学脚本，再导出水墨短片和 A4 观察任务卡。</p>
       <p><code>AI 研学</code> <code>Next.js</code> <code>FastAPI</code> <code>FFmpeg</code></p>
       <p><a href="https://gujianyanxue.online/">项目官网 ↗</a> · <a href="https://github.com/lishuang0209/moguan">项目源码 ↗</a></p>
     </td>
     <td width="50%" align="left" valign="top">
-      <a href="https://github.com/lishuang0209/guci"><img src="assets/projects/previews/guci-cropped.jpg" alt="Porvia 柠檬蓝花演示提案与印花、包装选稿" width="100%"></a>
+      <a href="https://github.com/lishuang0209/guci"><img src="assets/projects/previews/guci-full-case.jpg" alt="Porvia 柠檬蓝花演示提案与四张完整的印花、包装选稿卡片" width="100%"></a>
       <p>面向骨瓷出口团队，从客户询盘中整理需求，集中管理产品资料、印花和包装审稿，并生成英文 PDF 提案。</p>
       <p><code>骨瓷出口</code> <code>Node.js</code> <code>SQLite</code></p>
       <p><a href="https://github.com/lishuang0209/guci">项目源码 ↗</a> · <a href="https://github.com/lishuang0209/guci#readme">本机运行说明 ↗</a></p>
