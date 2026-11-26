@@ -65,7 +65,7 @@
     </td>
     <td width="50%" align="left" valign="top">
       <a href="https://lishuang0209.github.io/blender-landing-page/#immersive-gallery"><img src="assets/projects/previews/blender-color-woven-gallery.jpg" alt="Blender WebGL 曲面画廊第 10 件作品 Color woven" width="100%"></a>
-      <p>围绕 Blender 制作的独立概念页。滚动时，视频画面逐渐展开并弯曲变形；浏览者也可以翻转 3D 作品卡、拖动 WebGL 曲面画廊，或拨动页尾的线条听取声音反馈。</p>
+      <p>滚动时，视频画面逐渐展开并弯曲变形；浏览者也可以翻转 3D 作品卡、拖动 WebGL 曲面画廊，或拨动页尾的线条听取声音反馈。</p>
       <p><code>React</code> <code>TypeScript</code> <code>Three.js</code> <code>GSAP</code> <code>Web Audio</code></p>
       <p><a href="https://lishuang0209.github.io/blender-landing-page/">在线体验 ↗</a> · <a href="https://github.com/lishuang0209/blender-landing-page">项目源码 ↗</a></p>
     </td>
