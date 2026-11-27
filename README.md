@@ -38,7 +38,7 @@
   <tr>
     <td width="50%" align="left" valign="top">
       <a href="https://gujianyanxue.online/"><img src="assets/projects/previews/moguan-no-bars.jpg" alt="墨观古建AI 首页，展示水墨山寺与保国寺找斗拱案例" width="100%"></a>
-      <p>为古建研学老师和课程团队制作课堂内容。导入研学资料、标注实拍照片，编辑并审阅研学脚本，再导出水墨短片和 A4 观察任务卡。</p>
+      <p>面向古建研学老师与课程团队的备课创作平台。支持资料导入与实拍标注，打通「剧本审阅 → 分镜拆解 → 画面生成 → 视频合成」全流程，一键导出水墨短片与 A4 观察任务卡。</p>
       <p><code>AI 研学</code> <code>Next.js</code> <code>FastAPI</code> <code>FFmpeg</code></p>
       <p><a href="https://gujianyanxue.online/">项目官网 ↗</a> · <a href="https://github.com/lishuang0209/moguan">项目源码 ↗</a></p>
     </td>
