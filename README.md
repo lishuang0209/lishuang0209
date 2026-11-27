@@ -59,7 +59,7 @@
   <tr>
     <td width="50%" align="left" valign="top">
       <a href="https://github.com/lishuang0209/ecommerce-image-workflow"><img src="assets/projects/previews/ecommerce-image-workflow.jpg" alt="电商素材工作流画布，展示商品主图与办公、户外场景分支" width="100%"></a>
-      <p>按 SKU 管理商品素材。在画布上串联素材入库、提示词编辑、白底主图、办公与户外场景图生成，以及结果保存。</p>
+      <p>按 SKU 管理商品素材的画布式出图工作台。在画布上串联素材入库、提示词编辑、白底主图及办公/户外场景图生成，并支持批量改风格、批量改尺寸与结果归档保存。</p>
       <p><code>TypeScript</code> <code>Python</code></p>
       <p><a href="https://github.com/lishuang0209/ecommerce-image-workflow">项目源码 ↗</a> · <a href="https://github.com/lishuang0209/ecommerce-image-workflow/blob/main/README_ECOMMERCE.md">本机运行说明 ↗</a></p>
     </td>
