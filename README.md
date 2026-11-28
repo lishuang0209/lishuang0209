@@ -53,7 +53,7 @@
 
 <table>
   <tr>
-    <th width="50%" align="left" valign="top"><h3>03 / 电商素材画布工作流</h3></th>
+    <th width="50%" align="left" valign="top"><h3>03 / 电商视觉画布</h3></th>
     <th width="50%" align="left" valign="top"><h3>04 / Blender · 交互展示页</h3></th>
   </tr>
   <tr>
